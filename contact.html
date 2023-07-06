@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLang.Co | Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav id="navbar"> <!-- navigation bar -->
+                <a href="index.html"><img src="edulang_logo.png" class="nav-item" height="56" width="250"></a>
+                <ul class="nav-list">
+                    <li class="nav-item"><button><a href = "index.html">Home</a></button></li>
+                    <li class="nav-item"><button><a href = "aboutus.html">About Us</a></button></li>
+                    <div class="dropdown">
+                        <li class="nav-item"><button><a href = "beginnercourse.html">Courses</a></button></li>
+                        <div class="dropdown-content">
+                            <li class=><a href = "beginnercourse.html">Beginner</a></li>
+                            <li class=><a href = "intermediatecourse.html">Intermediate</a></li>
+                            <li class=><a href = "advancedcourse.html">Advanced</a></li>
+                        </div> <!-- .dropdown-content -->
+                    </div> <!-- .dropdown -->
+                    <div class="dropdown2">
+                        <li class="nav-item"><button><a href = "contact.html">Contact</a></button></li>
+                        <div class="dropdown2-content">
+                            <li><a href = "contact.html">Contact Us</a></li>
+                            <li><a href = "faq.html">FAQ</a></li>
+                        </div> <!-- .dropdown2-content -->
+                    </div> <!-- .dropdown2 -->
+                </ul>
+                <ul class="nav-list2">
+                    <li class="nav-item"><button><a href = "enroll.html" id="enroll">Enroll Now</a></button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="container-contact">
+                <h1>Contact Us</h1>
+                <hr>
+                <div id="contact_info">
+                    <div id="contact_table">
+                        <table>
+                            <tr>
+                                <td><img src="location_pin.png" width=30 height=30 alt="location_pin"></td>
+                                <td>No.2, Jalan 1.86, Off Jalan Taman Seputeh, Kuala Lumpur 58000 Malaysia</td>
+                            </tr>
+                            <tr>
+                                <td><img src="phone_icon.png" width=30 height=30 alt="phone_icon"></td>
+                                <td>+603-2272 5311</td>
+                            </tr>
+                            <tr>
+                                <td><img src="email.png" width=30 height=30 alt="email_icon"></td>
+                                <td>cs.edulang.com</td>
+                            </tr>
+                        </table>
+                    </div> <!-- contact_table -->
+                    
+                    <div id="contact_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.693049863174!2d101.679651!3d3.1150039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4a275bb7fccd%3A0xf343295489c1ac80!2sSeputeh%2C%2058000%20Kuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1688365054423!5m2!1sen!2smy" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div> <!-- #contact_info -->
+
+                <h1>Enquiry Form </h1>
+                <hr>
+                <form id="enquiry_form"">
+                    <div class="form-group">
+                        <label for="name">Name: <span>(required minimum 3 characters)</span></label>
+                        <input type="text" name="name" id="name"  minlength="3" placeholder="Example: John Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: <span>(required)</label>
+                        <input type="email" name="email" id="email" placeholder="Example: abc@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone: <span>(optional)</span></label>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{7}" placeholder="Example: 012-3456789">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: <span>(required minimum 5 characters)</span></label>
+                        <textarea name="message" id="message" minlength="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="enquiry-submit">Submit</button>
+                    </div>
+                </form>
+                <dialog id="enquiry-popup">
+                    <p>Your enquiry has been received. Our consultant will reach out soon. Thank you!</p>
+                    <p id="enquiry-details"></p>
+                    <button class="enquiry-close">Close</button>
+                </dialog>
+            </div> <!-- #container-contact -->
+
+            <div id="container2">
+                <div id="c2-col1">
+                    <div id="footer-btn">
+                        <ul class="footer-list">
+                            <li class="footer-link"><button><a href = "index.html">Home</a></button></li>
+                            <li class="footer-link"><button><a href = "aboutus.html">About Us</a></button></li>
+                            <li class="footer-link"><button><a href = "beginnercourse.html">Courses</a></button></li>
+                            <li class="footer-link"><button><a href = "newsandevents.html">News</a></button></li>
+                            <li class="footer-link"><button><a href = "gallery.html">Gallery</a></button></li>
+                        </ul> <!-- .footer-list -->
+                        <ul class="footer-list">
+                            <li class="footer-link"><button><a href = "testimonial.html">Testimonial</a></button></li>
+                            <li class="footer-link"><button><a href = "contact.html">Contact Us</a></button></li>
+                            <li class="footer-link"><button><a href = "faq.html">FAQ</a></button></li>
+                            <li class="footer-link"><button><a href = "sitemap.html">Site Map</a></button></li>
+                        </ul> <!-- .footer-list -->
+                    </div> <!-- #footer-btn -->
+                    <div id="social-media">
+                        <table>
+                            <caption>Follow Us:</caption>
+                            <tr>
+                                <td><a href="#0"><img src="facebook.png" width=50 height=50 alt="facebook"></a></td>
+                                <td><a href="#0"><img src="instagram.png" width=50 height=50 alt="instagram"></a></td>
+                                <td><a href="#0"><img src="linkedin.png" width=50 height=50 alt="linkedin"></a></td>
+                                <td><a href="#0"><img src="twitter.png" width=50 height=50 alt="twitter"></a></td>
+                            </tr>
+                        </table>
+                    </div> <!-- #social-media -->
+                </div> <!-- #c2-col1 -->
+                <div id="c2-col2">
+                    <table>
+                        <tr>
+                            <td><img src="location_pin.png" width=30 height=30 alt="location_pin"></td>
+                            <td>No.2, Jalan 1.86, Off Jalan Taman Seputeh, Kuala Lumpur 58000 Malaysia</td>
+                        </tr>
+                        <tr>
+                            <td><img src="phone_icon.png" width=30 height=30 alt="phone_icon"></td>
+                            <td>+603-2272 5311</td>
+                        </tr>
+                        <tr>
+                            <td><img src="email.png" width=30 height=30 alt="email_icon"></td>
+                            <td>cs.edulang.com</td>
+                        </tr>
+                    </table>
+                </div> <!-- #c2-col2 -->
+            </div> <!-- #container2 -->
+        </main>
+        <footer>
+            Copyright&copy; 2023 EduLang.Co All rights reserved.
+        </footer>
+    </div> <!-- #wrapper -->
+
+    <!-- Javascript Code for Pop Up Modal -->
+    <script>
+        const modal = document.querySelector('#enquiry-popup'); 
+        const openModal = document.querySelector('.enquiry-submit');
+        const closeModal = document.querySelector('.enquiry-close');
+        const form = document.querySelector('#enquiry_form');
+
+        openModal.addEventListener('click', function(event){
+            if(form.checkValidity()) { // Check if the form is valid
+                event.preventDefault(); // Prevent submission
+                modal.showModal();
+            }
+        });
+
+        closeModal.addEventListener('click', function(){
+            modal.close();
+        });
+
+        // Reset the form when the modal is closed
+        modal.addEventListener('close', function(){
+            form.reset();
+        });
+
+    </script>
+
+</body>
+</html>

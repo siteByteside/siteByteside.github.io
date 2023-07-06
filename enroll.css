@@ -1,0 +1,134 @@
+/* Enroll Page Styles */
+#container-enroll,
+#container-register {
+    margin-top: -20px;
+    background-color:  #f1f1f1;
+}
+
+#container-register {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#container-enroll h1,
+#container-register h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-enroll hr,
+#container-register hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+    width: 90%;
+}
+
+#container-register h2 {
+    color: #800f2f;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+#registration-details {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffccd58a;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+#registration-details h4 {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#registration-details p {
+    font-size: 0.8em;
+    font-style: italic;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color:#646262;
+}
+
+#registrationform{
+    background-color: #ffccd58a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group span {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #393646;
+}
+
+.form-group .error {
+    color: red;
+    font-weight: normal !important;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.form-group textarea {
+    height: 200px;
+}
+
+.form-group button {
+    background-color: #a4133c;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-group button:hover {
+    background-color: #ff4d6d;
+}
+
+.form-group button:active {
+    background-color: #dc2d4d;
+    transform: translateY(3px);
+}
+
+#cranepic{
+    background: url('paper_crane.png') no-repeat;
+    background-size: 350px;
+    background-position: center;
+    height: 250px;
+}

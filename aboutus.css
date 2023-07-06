@@ -1,0 +1,78 @@
+/* About Us Page Styles */
+#container-about {
+    background-color: #f1f1f1;
+    margin-top: -20px;
+}
+
+#container-about h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-about hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+    width: 95%;
+}
+
+.allrows {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#firstrow,
+#secondrow,
+#thirdrow,
+#fourthrow {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+#firstrow img,
+#thirdrow img {
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#secondrow img,
+#fourthrow img {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.text-about {
+    background-color: #ffccd58a;
+    height: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    .img-about {
+        display: none;
+    }
+  }
+
+/* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1056px) {
+    /* Adjust the styling for tablet-sized screens */
+    
+}
+
+/* Desktop devices */
+@media screen and (min-width: 1057px) {
+    /* Adjust the styling for larger screens */
+    
+}

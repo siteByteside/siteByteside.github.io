@@ -1,0 +1,39 @@
+/* FAQ Page Styles */
+#container-faq {
+    background-color: #f1f1f1;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+#container-faq h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-faq hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.questions{
+    background-color: #ffccd58a;
+    width: 90%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.questions h3 {
+    color:#800f2f;
+    padding-left: 10px;
+}
+
+.questions p {
+    padding-left: 10px;
+    line-height: 1.8em;
+}

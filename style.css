@@ -1,0 +1,245 @@
+/* Reset the margin and padding */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Header style */
+#navbar {
+    background-color: #a4133c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-right: 0.8em;
+    display: inline;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+.nav-item button {
+    background-color: #ff4d6d;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav-item button:hover {
+    background-color: #dc2d4d;
+}
+
+.nav-item button:active {
+    transform: translateY(3px);
+}
+
+#navbar img {
+    padding-top: 5px;
+}
+
+#navbar img:hover{
+    cursor: pointer;
+}
+
+.dropdown-content,
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.5);
+    z-index: 1;
+}
+
+.dropdown-content a,
+.dropdown2-content a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover,
+.dropdown2-content a:hover {
+    background-color: #c5c2c2;
+}
+
+.dropdown-content li,
+.dropdown2-content li {
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+
+/* Footer Styles */
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #adb5bd;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#c2-col1 {
+    flex: 7;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    line-height: 30px;
+}
+
+.footer-link {
+    list-style-type: none;
+    margin-right: 1.2em;
+}
+
+.footer-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.footer-link button {
+    background-color: #a4133c;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer-link button:hover {
+    background-color: #ff4d6d;
+}
+
+.footer-link button:active {
+    transform: translateY(3px);
+}
+
+#c2-col2 {
+    flex: 3;
+}
+main {
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: #a4133c;
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center; 
+}
+
+#social-media table {
+    margin: 20px 20px 10px 40px;
+}
+
+#social-media table caption {
+    text-align: left;
+    font-weight: bold;
+    color: #800f2f;
+    padding-bottom: 5px;
+    box-sizing:border-box;
+}
+
+#social-media tr td {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#social-media a:hover {
+    filter: opacity(50%);
+}
+
+#c2-col2 table tr,
+#c2-col2 table td {
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+#c2-col2 table {
+    margin: 10px;
+}
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #navbar {
+        flex-direction: column;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-list button {
+        margin-bottom: 15px;
+    }
+    .nav-list2 button {
+        margin-top: -20px;
+    }
+    .footer-link button {
+        margin-bottom: 10px;
+    }
+    #container2 {
+        flex-direction: column;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #navbar {
+        flex-direction: column;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-list button {
+        margin-bottom: 15px;
+    }
+    .nav-list2 button {
+        margin-top: -20px;
+    }
+    .footer-link button {
+        margin-bottom: 10px;
+    }
+    #container2 {
+        flex-direction: column;
+    }
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    
+  }

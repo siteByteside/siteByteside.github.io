@@ -1,0 +1,75 @@
+/* Sitemap Page Styles */
+#container-sitemap {
+    background-color: #f1f1f1;
+    margin-top: -20px;
+}
+
+#container-sitemap h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-sitemap hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#container-sitemap a {
+    text-decoration: none;
+}
+
+.li-head {
+    list-style-type: none;
+}
+
+.li-body {
+    list-style-type: disc;
+}
+
+.li-head a {
+    font-weight: bold;
+    color: #800f2f;
+}
+
+.li-head a:hover {
+    color: #ff4d6d;
+}
+
+#sitemap-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#col1-sitemap {
+    flex: 6;
+    background-color: #ffccd58a;
+    margin: 15px 20px 30px 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#col1-sitemap h2 {
+    color: #800f2f;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+#col2-sitemap {
+    flex: 4;
+    background: url('lady.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 450px;
+    margin: 15px;
+}
+
+#banner{
+    background: url('banner.jpg') no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}

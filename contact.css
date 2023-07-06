@@ -1,0 +1,137 @@
+/* Contact Page Styles */
+#container-contact {
+    background-color: #f1f1f1;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+#container-contact h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-contact hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+    width: 95%;
+}
+
+#contact_info {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffccd58a;
+    height:350px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#contact_table {
+    flex: 5;
+    margin: 60px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact_map {
+    flex: 5;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#contact_table tr,
+#contact_table td {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+#enquiry_form {
+    background-color: #ffccd58a;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+:modal {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+#enquiry-popup button {
+    background-color: #a4133c;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
+}
+
+#enquiry-popup button:hover {
+    background-color: #ff4d6d;
+}
+
+#enquiry-popup button:active {
+    transform: translateY(3px);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group span {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #393646;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+.form-group textarea {
+    height: 200px;
+}
+
+.form-group button {
+    background-color: #a4133c;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-group button:hover {
+    background-color: #ff4d6d;
+}
+
+.form-group button:active {
+    background-color: #dc2d4d;
+    transform: translateY(3px);
+}

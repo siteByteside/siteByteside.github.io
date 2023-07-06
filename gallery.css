@@ -1,0 +1,66 @@
+/* Gallery Page Styles */
+#container-gallery {
+    background-color: #f1f1f1;
+    margin-top: -20px;
+}
+
+#container-gallery h1 {
+    color:#a4133c;
+    height: 50px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#container-gallery hr {
+    border: 1px solid #a4133c;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#gallery-box {
+    background-color: #ffccd58a;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+#gallery1 {
+    flex: 5;
+    margin: 0 5px 0 50px;
+    text-align: center;
+    font-weight: bold;
+    color:#800f2f;
+}
+
+#lifeatedu {
+    background: url('student_life.jpg') no-repeat;
+    background-size: contain;
+    height: 300px;
+    cursor: pointer;
+}
+
+#gallery2 {
+    flex: 5;
+    margin: 0 5px 0 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #800f2f;
+}
+
+#events {
+    background: url('events.jpg') no-repeat;
+    background-size: contain;
+    height: 300px;
+    cursor: pointer;
+}
+
+#banner{
+    background: url('banner.jpg') no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
