@@ -95,6 +95,9 @@
 /* Mobile devices */
 @media screen and (max-width: 767px) {
     /* Adjust the styling for smaller screens */
+    #container-course {
+        background-color: #fff;
+    }
     #container-course h1 {
         font-size: 1.5em;
     }
@@ -107,11 +110,18 @@
         font-size: 0.8em;
         margin: 0  20px 0 20px;
     }
+    #course_table {
+        font-size: 0.8em;
+        margin: 20px 20px 20px 0;
+    }
   }
 
   /* Tablet devices */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     /* Adjust the styling for tablet-sized screens */
+    #container-course {
+        background-color: #fff;
+    }
     #container-course h1 {
         font-size: 2em;
     }
@@ -124,10 +134,15 @@
         font-size: 0.8em;
         margin: 0  20px 0 20px;
     }
+    #course_table {
+        font-size: 0.8em;
+    }
   }
 
   /* Desktop devices */
 @media screen and (min-width: 1024px) {
     /* Adjust the styling for larger screens */
-    
+    #container-course h1 {
+        font-size: 2em;
+    }
   }
