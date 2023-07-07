@@ -24,7 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #ffccd58a;
-    height:350px;
+    height:auto;
     width: 95%;
     margin: 0 auto;
 }
@@ -38,8 +38,7 @@
 
 #contact_map {
     flex: 5;
-    margin-top: 25px;
-    margin-right: 20px;
+    margin: 25px 20px 25px 0;
 }
 
 #contact_table tr,
@@ -135,3 +134,62 @@
     background-color: #dc2d4d;
     transform: translateY(3px);
 }
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #container-contact h1 {
+        font-size: 1.5em;
+    }
+    #contact_map {
+        display: none;
+    }
+    #contact_table {
+        font-size: 0.8em;
+    }
+    #enquiry_form {
+        font-size: 0.8em;
+        padding: 10px 0 10px 10px;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #container-contact h1 {
+        font-size: 2em;
+    }
+    #contact_info {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #contact_map {
+        margin: 0 0 20px 20px;
+    }
+
+    #contact_table {
+        font-size: 0.8em;
+    }
+    #enquiry_form {
+        font-size: 0.8em;
+        padding: 10px 0 10px 10px;
+    }
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    #container-contact h1 {
+        font-size: 2em;
+    }
+    #contact_table {
+        font-size: 0.8em;
+    }
+    #enquiry_form {
+        font-size: 0.8em;
+        padding: 10px 0 10px 10px;
+    }
+  }
