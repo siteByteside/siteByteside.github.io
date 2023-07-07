@@ -207,11 +207,26 @@ footer {
     .nav-list2 button {
         margin-top: -20px;
     }
+    .nav-list a,
+    .nav-list2 a {
+        font-size: 1em;
+    }
     .footer-link button {
         margin-bottom: 10px;
     }
+    .footer-link a {
+        font-size: 1em;
+    }
     #container2 {
         flex-direction: column;
+        font-size: 0.8em;
+    }
+    footer {
+        font-size: 0.8em;
+    }
+    .dropdown-content a,
+    .dropdown2-content a {
+        font-size: 0.8em;
     }
   }
 
@@ -230,11 +245,27 @@ footer {
     .nav-list2 button {
         margin-top: -20px;
     }
+    .nav-list a,
+    .nav-list2 a {
+        font-size: 1em;
+    }
+
     .footer-link button {
         margin-bottom: 10px;
     }
+    .footer-link a {
+        font-size: 1em;
+    }
     #container2 {
         flex-direction: column;
+        font-size: 0.8em;
+    }
+    footer {
+        font-size: 0.8em;
+    }
+    .dropdown-content a,
+    .dropdown2-content a {
+        font-size: 0.8em;
     }
   }
 
