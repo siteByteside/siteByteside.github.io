@@ -37,3 +37,40 @@
     padding-left: 10px;
     line-height: 1.8em;
 }
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #container-faq h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .questions {
+        font-size: 0.8em;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #container-faq h1 {
+        font-size: 2em;
+    }
+    .questions {
+        font-size: 0.8em;
+    }
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    #container-faq h1 {
+        font-size: 2em;
+    }
+    .questions {
+        font-size: 1em;
+    }
+  }
