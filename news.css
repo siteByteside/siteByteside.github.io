@@ -2,7 +2,7 @@
 #container-news,
 #container-event {
     background-color: #f1f1f1;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 #container-news h2,
@@ -32,7 +32,7 @@
     font-size: 0.8em;
 }
 
-#event-text1 span {
+#event-text1 strong {
     font-size: 1.3em;
     font-weight: bold;
     color:#800f2f;
@@ -74,7 +74,9 @@
 #news-text1,
 #news-text2,
 #news-text3,
-#event-text1 {
+#event-text1,
+#event-text2,
+#event-text3 {
     width: 90%;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
@@ -95,13 +97,87 @@
     list-style-type: none;
 }
 
-#event-text1 img {
+#event-text1 img,
+#event-text2 img,
+#event-text3 img {
     display: block;
     margin: 0 auto;
 }
 
-#event-text1 figure {
+#event-text1 figure,
+#event-text2 figure,
+#event-text3 figure {
     text-align: center;
     font-size: 0.8em;
     font-style: italic;
-}  
+}
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #container-news h2,
+    #container-event h2 {
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    #container-news p,
+    #container-event p {
+        font-size: 0.8em;
+    }
+    #container-news a {
+        font-size: 0.8em;
+    }
+    .post-date {
+        font-size: 0.5em;
+    }
+    #container-event figure {
+        display: none;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #container-news h2,
+    #container-event h2 {
+        font-size: 1.8em;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    #container-news p,
+    #container-event p {
+        font-size: 0.8em;
+    }
+    #container-news a {
+        font-size: 0.8em;
+    }
+    #container-event figure {
+        display: none;
+    }
+
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    #container-news h2,
+    #container-event h2 {
+        font-size: 2em;
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    #container-news p,
+    #container-event p {
+        font-size: 1em;
+    }
+    #container-news a {
+        font-size: 1em;
+    }
+    .post-date {
+        font-size: 1em;
+    }
+  }
