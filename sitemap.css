@@ -73,3 +73,36 @@
     background-size: cover;
     background-position: center;
 }
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #container-sitemap h1 {
+        font-size: 1.5em;
+    }
+    #col2-sitemap {
+        display: none;
+    }
+    #col1-sitemap {
+        margin: 15px 30px 30px 30px;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #container-sitemap h1 {
+        font-size: 2em;
+    }
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    #container-sitemap h1 {
+        font-size: 2em;
+    }
+  }
