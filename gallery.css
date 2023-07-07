@@ -22,40 +22,19 @@
     background-color: #ffccd58a;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 20px;
     box-sizing: border-box;
     height: auto;
 }
 
-#gallery1 {
-    flex: 5;
-    margin: 0 5px 0 50px;
+#gallery-box figure {
+    margin: 10px 20px;
+}
+
+#gallery-box figcaption {
     text-align: center;
-    font-weight: bold;
-    color:#800f2f;
-}
-
-#lifeatedu {
-    background: url('student_life.jpg') no-repeat;
-    background-size: contain;
-    height: 300px;
-    cursor: pointer;
-}
-
-#gallery2 {
-    flex: 5;
-    margin: 0 5px 0 50px;
-    text-align: center;
-    font-weight: bold;
-    color: #800f2f;
-}
-
-#events {
-    background: url('events.jpg') no-repeat;
-    background-size: contain;
-    height: 300px;
-    cursor: pointer;
 }
 
 #banner{
@@ -64,3 +43,38 @@
     background-size: cover;
     background-position: center;
 }
+
+/* CSS code for responsive design */
+
+/* Extra small screen devices */
+@media screen and (max-width: 450px) {
+    /* Adjust the styling for smaller screens */
+    #gallery-box img {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    #container-gallery h1 {
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    }
+  }
+
+/* Mobile devices */
+@media screen and (min-width: 451px) and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    
+  }
