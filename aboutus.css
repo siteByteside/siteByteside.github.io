@@ -58,21 +58,40 @@
 /* CSS code for responsive design */
 
 /* Mobile devices */
-@media screen and (min-width: 500px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* Adjust the styling for smaller screens */
+    #container-about h1 {
+        font-size: 1.5em;
+    }
     .img-about {
         display: none;
+    }
+    .text-about {
+        font-size: 0.8em;
     }
   }
 
 /* Tablet devices */
 @media screen and (min-width: 768px) and (max-width: 1056px) {
     /* Adjust the styling for tablet-sized screens */
-    
+    #container-about h1 {
+        font-size: 2em;
+    }
+    .img-about {
+        display: none;
+    }
+    .text-about {
+        font-size: 1em;
+    }
 }
 
 /* Desktop devices */
 @media screen and (min-width: 1057px) {
     /* Adjust the styling for larger screens */
-    
+    #container-about h1 {
+        font-size: 2em;
+    }
+    .text-about {
+        font-size: 1em;
+    }
 }
