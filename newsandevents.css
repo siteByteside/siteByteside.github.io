@@ -4,20 +4,11 @@
     padding-top: 20px;
 }
 
-#container-newsandevents h2 {
-    color:#a4133c;
-    height: 50px;
-    margin-bottom: -5px;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
 #newsandevents {
     background-color: #ffccd58a;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     box-sizing: border-box;
 }
 
@@ -45,3 +36,30 @@
     padding: 20px 15px;
     box-sizing: border-box;
 }
+
+
+/* CSS code for responsive design */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    /* Adjust the styling for smaller screens */
+    #newsandevents {
+        font-size: 0.8em;
+    }
+  }
+
+  /* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust the styling for tablet-sized screens */
+    #newsandevents {
+        font-size: 1em;
+    }
+  }
+
+  /* Desktop devices */
+@media screen and (min-width: 1024px) {
+    /* Adjust the styling for larger screens */
+    #newsandevents {
+        font-size: 1em;
+    }
+  }
