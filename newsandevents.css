@@ -2,12 +2,14 @@
 #container-newsandevents {
     background-color: #f1f1f1;
     padding-top: 20px;
+    height: 600px;
 }
 
 #newsandevents {
     background-color: #ffccd58a;
     width: 90%;
     margin: 0 auto;
+    margin-top: 50px;
     padding: 10px 10px 20px 10px;
     box-sizing: border-box;
 }
