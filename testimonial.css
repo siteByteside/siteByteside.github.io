@@ -2,6 +2,7 @@
 #container-testimonial {
     background-color: #f1f1f1;
     margin-top: -20px;
+    margin-bottom: -13px;
 }
 
 #container-testimonial h1 {
@@ -52,6 +53,13 @@
     flex-wrap: wrap;
 }
 
+.credit {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #5c5858;
+}
 
 /* CSS code for responsive design */
 
