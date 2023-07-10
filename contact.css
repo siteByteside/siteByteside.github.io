@@ -55,12 +55,6 @@
     margin: 0 auto;
 }
 
-:modal {
-    border: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    padding: 20px;
-}
-
 #enquiry-popup button {
     background-color: #a4133c;
     padding: 10px 15px;
