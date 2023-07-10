@@ -2,6 +2,7 @@
 #container-course {
     background-color: #f1f1f1;
     margin-top: -20px;
+    padding-bottom: 5px;
 }
 
 #container-course h1 {
@@ -50,6 +51,14 @@
     height: 300px;
 }
 
+.credit {
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 0;
+    text-align: center;
+    color: #5c5858;
+}
+
 #course_table table {
     width: 100%;
     margin: 0 auto;
@@ -78,14 +87,18 @@
     text-align: left;
     padding-left: 40px;
     box-sizing: border-box;
-    background-color:#ffcdcd;
-    color:#800f2f;
+    background-color:rgba(128, 15, 47, 0.7);
+    color: #fff;
 }
 
 #course_table td {
     color:#800f2f;
     padding: 20px;
     text-align: center;
+    background-color: #e6a4a4;
+}
+
+#course_table td:last-of-type {
     background-color: #ffcdcd;
 }
 
