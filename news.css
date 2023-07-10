@@ -5,6 +5,14 @@
     margin-top: -25px;
 }
 
+#container-news {
+    height: 600px;
+}
+
+#container-event {
+    height: auto;
+}
+
 #container-news h2,
 #container-event h2 {
     color:#a4133c;
@@ -71,9 +79,20 @@
     color: #800f2f;
 }
 
+
 #news-text1,
 #news-text2,
-#news-text3,
+#news-text3 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-indent: 10px;
+    line-height: 1.8em;
+    background-color: rgba(255,255,255,0.5);
+
+}
+
 #event-text1,
 #event-text2,
 #event-text3 {
@@ -112,6 +131,13 @@
     font-style: italic;
 }
 
+.credit {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #5c5858;
+}
 
 /* CSS code for responsive design */
 
