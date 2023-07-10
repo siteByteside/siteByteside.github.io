@@ -28,13 +28,8 @@
     box-sizing: border-box;
 }
 
-#col-cta a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-#col-cta button {
+.cta-btn,
+.testi-btn {
     display: inline-block;
     background-color: #ff4d6d;
     padding: 10px 15px;
@@ -42,13 +37,18 @@
     border-radius: 20px;
     cursor: pointer;
     border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
-#col-cta button:hover {
+.cta-btn:hover,
+.testi-btn:hover {
     background-color: #dc2d4d;
 }
 
-#col-cta button:active {
+.cta-btn:active,
+.testi-btn:active {
     transform: translateY(3px);
 }
 
@@ -74,30 +74,6 @@
     padding-top: 15px;
     padding-left: 20px;
     box-sizing: border-box;
-}
-
-#col-testimonial button {
-    display: block;
-    background-color: #ff4d6d;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    border: none;
-}
-
-#col-testimonial a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
-}
-
-#col-testimonial button:hover {
-    background-color: #dc2d4d;
-}
-
-#col-testimonial button:active {
-    transform: translateY(3px);
 }
 
 .testi-img-group {
@@ -133,9 +109,8 @@
 }
 
 #testi-img3 {
-    background: url('student3.jpg') no-repeat;
+    background: url('student5.jpg') no-repeat;
     background-size: cover;
-    background-position: center;
     height: 200px;
     border-radius: 5px;
     margin-right: 10px;
@@ -204,10 +179,9 @@
     #testi-img2,
     #testi-img3 {
         margin-bottom: 10px;
-        background-size: contain;
+        background-size: cover;
     }
-    #col-testimonial button {
-        margin: 0 auto;
+    .testi-btn {
         margin-bottom: 10px;
     }
   }
@@ -224,8 +198,7 @@
         margin-bottom: 10px;
         background-size: contain;
     }
-    #col-testimonial button {
-        margin: 0 auto;
+    .testi-btn {
         margin-bottom: 10px;
     }
 
