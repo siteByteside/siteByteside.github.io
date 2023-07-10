@@ -44,6 +44,32 @@
     color:#646262;
 }
 
+.btn-rgsuccess {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1em;
+    background-color: #ff4d6d;
+    padding: 8px 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-rgsuccess:hover {
+    background-color: #dc2d4d;
+}
+
+.btn-rgsuccess:active {
+    transform: translateY(3px);
+}
+
+.btn-rgsuccess:focus {
+    outline: none;
+}
+
 
 /* CSS code for responsive design */
 
@@ -60,6 +86,9 @@
     #registration-details {
         font-size: 0.8em;
     }
+    .btn-rgsuccess {
+        font-size: 0.8em;
+    }
   }
 
   /* Tablet devices */
@@ -73,6 +102,9 @@
     }
     #registration-details {
         font-size: 1em;
+    }
+    .btn-rgsuccess {
+        font-size: 0.8em;
     }
   }
 
