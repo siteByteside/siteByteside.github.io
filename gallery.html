@@ -11,28 +11,26 @@
     <div id="wrapper">
         <header>
             <nav id="navbar"> <!-- navigation bar -->
-                <a href="index.html"><img src="edulang_logo.png" class="nav-item" height="56" width="250"></a>
+                <a href="index.html"><img src="edulang_logo.png" class="nav-item" height="56" width="250" alt="edulang_logo"></a>
                 <ul class="nav-list">
-                    <li class="nav-item"><button><a href = "index.html">Home</a></button></li>
-                    <li class="nav-item"><button><a href = "aboutus.html">About Us</a></button></li>
-                    <div class="dropdown">
-                        <li class="nav-item"><button><a href = "beginnercourse.html">Courses</a></button></li>
-                        <div class="dropdown-content">
-                            <li class=><a href = "beginnercourse.html">Beginner</a></li>
-                            <li class=><a href = "intermediatecourse.html">Intermediate</a></li>
-                            <li class=><a href = "advancedcourse.html">Advanced</a></li>
-                        </div> <!-- .dropdown-content -->
-                    </div> <!-- .dropdown -->
-                    <div class="dropdown2">
-                        <li class="nav-item"><button><a href = "contact.html">Contact</a></button></li>
-                        <div class="dropdown2-content">
+                    <li class="nav-item"><a class="btn-link" href = "index.html">Home</a></li>
+                    <li class="nav-item"><a class="btn-link" href = "aboutus.html">About Us</a></li>
+                    <li class="nav-item dropdown-list"><a class="btn-link" href="beginnercourse.html">Courses</a>
+                        <ul class="dropdown-content">
+                            <li><a href = "beginnercourse.html">Beginner</a></li>
+                            <li><a href = "intermediatecourse.html">Intermediate</a></li>
+                            <li><a href = "advancedcourse.html">Advanced</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-list"><a class="btn-link" href="contact.html">Contact</a>
+                        <ul class="dropdown-content">
                             <li><a href = "contact.html">Contact Us</a></li>
                             <li><a href = "faq.html">FAQ</a></li>
-                        </div> <!-- .dropdown2-content -->
-                    </div> <!-- .dropdown2 -->
-                </ul>
+                        </ul>
+                    </li>
+                </ul> <!-- .nav-list -->
                 <ul class="nav-list2">
-                    <li class="nav-item"><button><a href = "enroll.html" id="enroll">Enroll Now</a></button></li>
+                    <li class="nav-item"><a class="btn-link" href = "enroll.html" id="enroll">Enroll Now</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,34 +40,44 @@
                 <hr>
                 <div id="gallery-box">
                     <figure id="pic1">
-                        <!-- Copyright Free Image Link -->
-                        <!-- https://unsplash.com/photos/1K8pIbIrhkQ-->
-                        <img src="image1.jpg" width=300 height=200 alt="picture1">
-                        <figcaption>Image 1</figcaption>
+                        <!-- Image Source -->
+                        <!-- http://google.com -->
+                        <img src="image1.jpg" width=300 height=200 alt="classroom_learning">
+                        <figcaption>Classroom Learning</figcaption>
                     </figure>
                     <figure id="pic2">
-                        <img src="image1.jpg" width=300 height=200 alt="picture2">
-                        <figcaption>Image 2</figcaption>
+                        <!-- Image Source -->
+                        <!-- http://google.com -->
+                        <img src="image2.jpg" width=300 height=200 alt="classroom_learning">
+                        <figcaption>Team Building at EduLang</figcaption>
                     </figure>
-                    <figure id="pic1">
-                        <img src="image1.jpg" width=300 height=200 alt="picture3">
-                        <figcaption>Image 1</figcaption>
+                    <figure id="pic3">
+                        <!-- Image Source -->
+                        <!-- http://google.com -->
+                        <img src="image3.jpg" width=300 height=200 alt="sushi_making_workshop">
+                        <figcaption>Sushi Making Workshop</figcaption>
                     </figure>
-                    <figure id="pic2">
-                        <img src="image1.jpg" width=300 height=200 alt="picture4">
-                        <figcaption>Image 3</figcaption>
+                    <figure id="pic4">
+                        <!-- Image Source -->
+                        <!-- http://google.com -->
+                        <img src="image4.jpg" width=300 height=200 alt="online_learning">
+                        <figcaption>Virtual Class on Zoom</figcaption>
                     </figure>
-                    <figure id="pic1">
-                        <img src="image1.jpg" width=300 height=200 alt="picture5">
-                        <figcaption>Image 4</figcaption>
+                    <figure id="pic5">
+                        <img src="image5.jpg" width=300 height=200 alt="tea_making_workshop">
+                        <figcaption>Tea Making Workshop</figcaption>
                     </figure>
-                    <figure id="pic2">
-                        <img src="image1.jpg" width=300 height=200 alt="picture6">
-                        <figcaption>Image 5</figcaption>
+                    <figure id="pic6">
+                        <img src="image6.jpg" width=300 height=200 alt="graduation">
+                        <figcaption>Program Graduation</figcaption>
                     </figure>
                 </div> <!-- #gallery-box -->
+                <div class="credit"><p>image source: <a href="https://google.com">https://google.com/</a></p></div>
             </div> <!-- #container-gallery -->
-            
+            <div id="lightbox">
+                <span class="close">&times;</span>
+                <img id="lightbox-image" src="#0" alt="">
+            </div>
     
             <div id = "banner"></div> <!--contains picture only--> 
             
@@ -77,17 +85,17 @@
                 <div id="c2-col1">
                     <div id="footer-btn">
                         <ul class="footer-list">
-                            <li class="footer-link"><button><a href = "index.html">Home</a></button></li>
-                            <li class="footer-link"><button><a href = "aboutus.html">About Us</a></button></li>
-                            <li class="footer-link"><button><a href = "beginnercourse.html">Courses</a></button></li>
-                            <li class="footer-link"><button><a href = "newsandevents.html">News</a></button></li>
-                            <li class="footer-link"><button><a href = "gallery.html">Gallery</a></button></li>
+                            <li class="footer-link"><a href = "index.html">Home</a></li>
+                            <li class="footer-link"><a href = "aboutus.html">About Us</a></li>
+                            <li class="footer-link"><a href = "beginnercourse.html">Courses</a></li>
+                            <li class="footer-link"><a href = "newsandevents.html">News</a></li>
+                            <li class="footer-link"><a href = "gallery.html">Gallery</a></li>
                         </ul> <!-- .footer-list -->
                         <ul class="footer-list">
-                            <li class="footer-link"><button><a href = "testimonial.html">Testimonial</a></button></li>
-                            <li class="footer-link"><button><a href = "contact.html">Contact Us</a></button></li>
-                            <li class="footer-link"><button><a href = "faq.html">FAQ</a></button></li>
-                            <li class="footer-link"><button><a href = "sitemap.html">Site Map</a></button></li>
+                            <li class="footer-link"><a href = "testimonial.html">Testimonial</a></li>
+                            <li class="footer-link"><a href = "contact.html">Contact Us</a></li>
+                            <li class="footer-link"><a href = "faq.html">FAQ</a></li>
+                            <li class="footer-link"><a href = "sitemap.html">Site Map</a></li>
                         </ul> <!-- .footer-list -->
                     </div> <!-- #footer-btn -->
                     <div id="social-media">
@@ -124,5 +132,24 @@
             Copyright&copy; 2023 EduLang.Co All rights reserved.
         </footer>
     </div> <!-- #wrapper -->
+
+    <!-- Javascript for image zoom-in functionality -->
+    <script>
+        const gallery = document.getElementById('gallery-box');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightbox-image');
+        const closeBtn = document.querySelector('.close');
+
+        gallery.addEventListener('click', function (event) {
+            if (event.target.tagName === 'IMG') {
+                lightboxImage.src = event.target.src;
+                lightbox.style.display = 'block';
+            }
+        });
+
+        closeBtn.addEventListener('click', function () {
+            lightbox.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
